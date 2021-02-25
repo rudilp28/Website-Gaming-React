@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contRow {
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contColun {
+    max-width: 97.5rem;
+    position: relative;
+    margin: 5% auto;
+}
+
+.container-galery {
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* img {
+    display: block;
+    cursor: pointer;
+     width: 100%;
+    
+} */
+
+.containerImagem-perview .selected {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-galery .imgContainer {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 20vw;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+}
+
+.containerImagem-perview {
+    width: 100vw;
+    height: 70vh;
+}
+
+h2.style_Title {
+    letter-spacing: 0.05em;
+    font-family: "Beaufort for LOL", serif;
+    font-weight: 800;
+    color: white;
+    padding: 20px;
+    margin: 40px 40px 0px;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(193, 193, 193, 0.2);
+}
+
+.style_carousel {
+    flex: 1 1 auto;
+    height: calc(100vh - 345px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transition-duration: .2s;
+}
+
+.style_carousel_bloco {
+    width: 50%;
+    height: 100%;
+    padding: 15px 0 0 0;
+    margin: 0 auto;
+}
+
+ .style_carousel_bloco img {
+    width: 100%;
+    margin: 10px 0 0;
+} 

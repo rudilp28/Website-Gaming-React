@@ -7,6 +7,7 @@ import './HeroSection.css';
 // import { Scroll } from 'framer-motion';
 import { motion } from 'framer-motion';
 import { TweenMax, Power3 } from 'gsap';
+import { Link } from 'react-router-dom';
 
 
 
@@ -32,6 +33,7 @@ function HeroSection() {
         </Button>
         </motion.div>
         <motion.div className="btn-2"initial={{x: 150, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{delay: 1.1, duration: 0.7}}>
+        <Link to='/service' className='btn-mobile'> 
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -40,6 +42,7 @@ function HeroSection() {
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
+        </Link>
         </motion.div>
         
       </div>

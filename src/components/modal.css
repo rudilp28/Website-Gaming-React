@@ -1,0 +1,121 @@
+.modal {
+    background-color: rgba(30, 30, 30, 0.9);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+
+.container-01{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: none;
+    width: 100vw;
+    height: calc(100vh - 20px);
+    z-index: 10;
+}
+
+.image{
+    background: transparent;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 50%;
+    max-height: 100%;
+    width: 50%;
+    height: auto;
+    outline: none;
+    
+}
+
+button.close {
+    position: absolute;
+    left: 100px;
+    border: solid 1px #fff;
+    width: 83px;
+    height: 73px;
+    border-color: #ece8e1;
+    z-index: 1;
+    background: none;
+    cursor: pointer;
+}
+
+button.close:hover {
+    background: rgba(187, 16, 16, 0.61);
+}
+
+.apenasteste {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* .title {
+    position: relative;
+    width: 50vw;
+    top: 276px;
+    background: #ff4655;
+} */
+
+.ReactModal__Body--open {
+    overflow-y: hidden;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .image {
+        background: transparent;
+        border: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+    button.close {
+        position: absolute;
+        bottom: 127vw;
+        border: solid 1px #fff;
+        width: 83px;
+        height: 73px;
+        border-color: #ece8e1;
+        z-index: 1;
+        background: none;
+        cursor: pointer;
+        background: rgba(187, 16, 16, 0.61);
+        left: 0px;
+        bottom: 0px;
+    }
+    
+  }
