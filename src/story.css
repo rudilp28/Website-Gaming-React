@@ -8,6 +8,16 @@ img {
     width: 100%;
 }
 
+.paragrafText1 {
+    font-size: 14vw;
+    margin: auto;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #212932;
+    position: absolute;
+}
+
 
 
 
@@ -91,6 +101,17 @@ img {
 
     .description {
         padding: 0px 0px!important;
+    }
+
+    .paragrafText1 {
+        font-size: 14vw;
+        margin: auto;
+        color: #fff;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #212932;
+        position: absolute;
+        left: 135px;
     }
 }
 

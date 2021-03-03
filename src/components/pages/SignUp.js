@@ -12,9 +12,26 @@ const pageTransition = {
     opacity: 0,
     x: '-100',
     overflow: 'hidden'
-  } 
+  }
 }
 
+
+
 export default function SignUp() {
-  return <motion.h1 className='sign-up' initial="out" animate="in" exit="out" variants={pageTransition}>SIGN UP</motion.h1>;
+ 
+  return <motion.div className='sign-up' initial="out" animate="in" exit="out" variants={pageTransition}>
+    <div className="glassCard">
+      <h1>SIGN UP</h1>
+      <form>
+        <div className="form">
+          <input type="text" class="formulario__input"></input>
+          <label for="" class="formulario__label">Nome</label>
+          <input type="text" class="formulario__input"></input>
+          <label for="" class="formulario__label">Senha</label>
+          <button class="btn btn--outline1 btn--large1">GET STARTED</button>
+        </div>
+      </form>
+    </div>
+  </motion.div>
+
 }

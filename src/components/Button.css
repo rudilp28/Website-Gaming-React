@@ -24,6 +24,14 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--outline1 {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
@@ -34,10 +42,23 @@
   font-size: 20px;
 }
 
+.btn--large1 {
+  padding: 12px 26px;
+  font-size: 20px;
+  position: relative;
+  width: 100%;
+}
+
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+
+.btn--large1:hover{
+  transition: all 0.3s ease-out;
   color: #242424;
   transition: 250ms;
 }
@@ -78,6 +99,26 @@ button.btn.btn--primary.btn::before{
   border-bottom: 3px solid #ff9800;
   border-right: 3px solid #ff9800;
 }
+
+button.btn.btn--outline1.btn--large1::after{
+  content: '';
+  display: block;
+
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+
+  position: absolute;
+  z-index: -1;
+  transition: .3s ease-in-out;
+
+  background-color: #ff9800;
+}
+
+button:hover.btn.btn--outline1.btn--large1::after {
+  width: 100%;
+} 
 
 button.btn.btn--outline.btn--large::after{
   content: '';
@@ -126,3 +167,5 @@ button:hover.btn.btn--primary.btn--large {
   background-color: red;
   color: #fff;
 }
+
+
