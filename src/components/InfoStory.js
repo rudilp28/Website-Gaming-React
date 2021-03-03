@@ -14,7 +14,9 @@ function InfoStory() {
           <section className="description">
             <div className="title">
               <motion.h1 initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{delay: 0.8, duration: 0.5}}>Story</motion.h1>
+              <p className="paragrafText">Story</p>
             </div>
+            
             <motion.div className="info-hear" initial={{x: -100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{delay: 1, duration: 0.7}}>
               <h2>Year</h2>
               <p>2019</p>

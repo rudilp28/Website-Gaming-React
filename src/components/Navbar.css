@@ -36,7 +36,6 @@
 
 .logo {
   width: 60px;
-  height: 60px;
 }
 
 svg.logo-svg {
@@ -165,5 +164,8 @@ svg.logo-svg {
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+  .logo {
+    width: 50px;
   }
 }

@@ -12,6 +12,7 @@ function HeaderGallery() {
       <div className="title-galery">
         <motion.h2 initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{delay: 0.8, duration: 0.5}}>Gallery</motion.h2>
       </div>
+      <p className="paragrafText">Gallery</p>
     </div>
     </>
   )

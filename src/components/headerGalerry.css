@@ -34,5 +34,23 @@
 .title-galery h2 {
     font-size: 7vw;
     margin: auto;
-    color: #000;
+    color: #fff;
+}
+
+.paragrafText {
+    font-size: 14vw;
+    margin: auto;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #212932;
+    position: absolute;
+}
+
+@media  (max-width: 679px) {
+    .containerG {
+        padding: 0px 0px;
+        display: flex;
+        
+    }
 }

@@ -6,9 +6,7 @@ video {
   z-index: -1;
 }
 
-.container1 {
-  background-color:grey;
-}
+
 
 .hero-container {
   background: url('/images/bg-beyond.jpg') center center/cover no-repeat;
@@ -71,7 +69,8 @@ video {
     text-decoration: none;
   }
 
-  .btn {
-    width: 100%;
+  .hero-btns {
+    margin-top: 32px;
+    display: block;
   }
 }
