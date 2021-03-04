@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Website-Gaming-React/static/css/main.543be500.chunk.css",
-    "main.js": "/Website-Gaming-React/static/js/main.e199de58.chunk.js",
-    "main.js.map": "/Website-Gaming-React/static/js/main.e199de58.chunk.js.map",
+    "main.js": "/Website-Gaming-React/static/js/main.30b899e9.chunk.js",
+    "main.js.map": "/Website-Gaming-React/static/js/main.30b899e9.chunk.js.map",
     "runtime-main.js": "/Website-Gaming-React/static/js/runtime-main.159f8f00.js",
     "runtime-main.js.map": "/Website-Gaming-React/static/js/runtime-main.159f8f00.js.map",
-    "static/js/2.e0246dd0.chunk.js": "/Website-Gaming-React/static/js/2.e0246dd0.chunk.js",
-    "static/js/2.e0246dd0.chunk.js.map": "/Website-Gaming-React/static/js/2.e0246dd0.chunk.js.map",
+    "static/js/2.07a51285.chunk.js": "/Website-Gaming-React/static/js/2.07a51285.chunk.js",
+    "static/js/2.07a51285.chunk.js.map": "/Website-Gaming-React/static/js/2.07a51285.chunk.js.map",
     "index.html": "/Website-Gaming-React/index.html",
-    "precache-manifest.d129f8a7dee24c313521bf5133cf03c1.js": "/Website-Gaming-React/precache-manifest.d129f8a7dee24c313521bf5133cf03c1.js",
+    "precache-manifest.616b65d4f851fc74cb191bc764221a5d.js": "/Website-Gaming-React/precache-manifest.616b65d4f851fc74cb191bc764221a5d.js",
     "service-worker.js": "/Website-Gaming-React/service-worker.js",
     "static/css/main.543be500.chunk.css.map": "/Website-Gaming-React/static/css/main.543be500.chunk.css.map",
-    "static/js/2.e0246dd0.chunk.js.LICENSE.txt": "/Website-Gaming-React/static/js/2.e0246dd0.chunk.js.LICENSE.txt"
+    "static/js/2.07a51285.chunk.js.LICENSE.txt": "/Website-Gaming-React/static/js/2.07a51285.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.159f8f00.js",
-    "static/js/2.e0246dd0.chunk.js",
+    "static/js/2.07a51285.chunk.js",
     "static/css/main.543be500.chunk.css",
-    "static/js/main.e199de58.chunk.js"
+    "static/js/main.30b899e9.chunk.js"
   ]
 }
