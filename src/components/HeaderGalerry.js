@@ -6,7 +6,7 @@ function HeaderGallery() {
   return (
     <>
     <div className='container1-1'>
-      <img src="/images/img-galery-5.png" alt=""/>
+      <img src="https://i.ibb.co/8m3FKss/img-galery-5.png" alt=""/>
     </div>
     <div className='containerG'>
       <div className="title-galery">
