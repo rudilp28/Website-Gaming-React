@@ -1,4 +1,5 @@
 {
+  "homepage": "http://rudilp28.github.io/Website-Gaming-React",
   "name": "navbar-dropdown-v1",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm rum build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   }
