@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b162a17a8fd6f586df35d2aac7da160",
+    "revision": "6f73e13cc062d3cb7ff514ce2fd2f978",
     "url": "/Website-Gaming-React/index.html"
   },
   {
-    "revision": "3200ca2fe351cbae1db3",
+    "revision": "364ae0045cbee2c75dd4",
     "url": "/Website-Gaming-React/static/css/main.8d5939c9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Website-Gaming-React/static/js/2.67bff073.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3200ca2fe351cbae1db3",
-    "url": "/Website-Gaming-React/static/js/main.e3252325.chunk.js"
+    "revision": "364ae0045cbee2c75dd4",
+    "url": "/Website-Gaming-React/static/js/main.944b8593.chunk.js"
   },
   {
     "revision": "ad968f5312b594c6618c",
