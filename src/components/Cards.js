@@ -3,6 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import {gsap, TimelineLite, Power3 } from 'gsap';
 
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,19 +33,19 @@ useEffect(() => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/macaco.jpg'
+              src='https://i.ibb.co/S7N6myD/macaco.jpg'
               text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
               label='Knox'
               
             />
             <CardItem
-              src='images/moca-1.jpg'
+              src='https://i.ibb.co/86Hc5gt/moca-1.jpg'
               text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
               label='Jade'
               
             />
             <CardItem
-              src='images/nave.jpg'
+              src= 'https://i.ibb.co/Kq8qT8h/nave.jpg'
               text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
               label='Ships'
               
