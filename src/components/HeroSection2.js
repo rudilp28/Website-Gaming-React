@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection2() {
   return (
     <div className='container1'>
-      <img src="/images/hero-bg-2.jpg" alt=""/>
+      <img src="https://i.ibb.co/g9wpmMz/hero-bg-2.jpg" alt=""/>
       
     </div>
   );
