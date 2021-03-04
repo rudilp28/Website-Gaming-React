@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Website-Gaming-React/static/css/main.2f7ce93a.chunk.css",
-    "main.js": "/Website-Gaming-React/static/js/main.6c71aae3.chunk.js",
-    "main.js.map": "/Website-Gaming-React/static/js/main.6c71aae3.chunk.js.map",
-    "runtime-main.js": "/Website-Gaming-React/static/js/runtime-main.73e6b823.js",
-    "runtime-main.js.map": "/Website-Gaming-React/static/js/runtime-main.73e6b823.js.map",
-    "static/js/2.67bff073.chunk.js": "/Website-Gaming-React/static/js/2.67bff073.chunk.js",
-    "static/js/2.67bff073.chunk.js.map": "/Website-Gaming-React/static/js/2.67bff073.chunk.js.map",
-    "index.html": "/Website-Gaming-React/index.html",
-    "precache-manifest.9384e9296ff8c49bfb1b564097242d27.js": "/Website-Gaming-React/precache-manifest.9384e9296ff8c49bfb1b564097242d27.js",
-    "service-worker.js": "/Website-Gaming-React/service-worker.js",
-    "static/css/main.2f7ce93a.chunk.css.map": "/Website-Gaming-React/static/css/main.2f7ce93a.chunk.css.map",
-    "static/js/2.67bff073.chunk.js.LICENSE.txt": "/Website-Gaming-React/static/js/2.67bff073.chunk.js.LICENSE.txt"
+    "main.css": "/home/static/css/main.2f7ce93a.chunk.css",
+    "main.js": "/home/static/js/main.6c71aae3.chunk.js",
+    "main.js.map": "/home/static/js/main.6c71aae3.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.ec5cacf7.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.ec5cacf7.js.map",
+    "static/js/2.67bff073.chunk.js": "/home/static/js/2.67bff073.chunk.js",
+    "static/js/2.67bff073.chunk.js.map": "/home/static/js/2.67bff073.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.076082f2040a71eff829a37248315088.js": "/home/precache-manifest.076082f2040a71eff829a37248315088.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.2f7ce93a.chunk.css.map": "/home/static/css/main.2f7ce93a.chunk.css.map",
+    "static/js/2.67bff073.chunk.js.LICENSE.txt": "/home/static/js/2.67bff073.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.73e6b823.js",
+    "static/js/runtime-main.ec5cacf7.js",
     "static/js/2.67bff073.chunk.js",
     "static/css/main.2f7ce93a.chunk.css",
     "static/js/main.6c71aae3.chunk.js"
