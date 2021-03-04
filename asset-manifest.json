@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Website-Gaming-React/static/css/main.2f7ce93a.chunk.css",
-    "main.js": "/Website-Gaming-React/static/js/main.363166c6.chunk.js",
-    "main.js.map": "/Website-Gaming-React/static/js/main.363166c6.chunk.js.map",
-    "runtime-main.js": "/Website-Gaming-React/static/js/runtime-main.73e6b823.js",
-    "runtime-main.js.map": "/Website-Gaming-React/static/js/runtime-main.73e6b823.js.map",
-    "static/js/2.67bff073.chunk.js": "/Website-Gaming-React/static/js/2.67bff073.chunk.js",
-    "static/js/2.67bff073.chunk.js.map": "/Website-Gaming-React/static/js/2.67bff073.chunk.js.map",
-    "index.html": "/Website-Gaming-React/index.html",
-    "precache-manifest.29ba4216abb30ac808f706d385b20f42.js": "/Website-Gaming-React/precache-manifest.29ba4216abb30ac808f706d385b20f42.js",
-    "service-worker.js": "/Website-Gaming-React/service-worker.js",
-    "static/css/main.2f7ce93a.chunk.css.map": "/Website-Gaming-React/static/css/main.2f7ce93a.chunk.css.map",
-    "static/js/2.67bff073.chunk.js.LICENSE.txt": "/Website-Gaming-React/static/js/2.67bff073.chunk.js.LICENSE.txt"
+    "main.css": "/Website-Gaming-React/home/static/css/main.2f7ce93a.chunk.css",
+    "main.js": "/Website-Gaming-React/home/static/js/main.6c71aae3.chunk.js",
+    "main.js.map": "/Website-Gaming-React/home/static/js/main.6c71aae3.chunk.js.map",
+    "runtime-main.js": "/Website-Gaming-React/home/static/js/runtime-main.5afa2505.js",
+    "runtime-main.js.map": "/Website-Gaming-React/home/static/js/runtime-main.5afa2505.js.map",
+    "static/js/2.67bff073.chunk.js": "/Website-Gaming-React/home/static/js/2.67bff073.chunk.js",
+    "static/js/2.67bff073.chunk.js.map": "/Website-Gaming-React/home/static/js/2.67bff073.chunk.js.map",
+    "index.html": "/Website-Gaming-React/home/index.html",
+    "precache-manifest.749d43de4a2b3983a333fbe905652cdd.js": "/Website-Gaming-React/home/precache-manifest.749d43de4a2b3983a333fbe905652cdd.js",
+    "service-worker.js": "/Website-Gaming-React/home/service-worker.js",
+    "static/css/main.2f7ce93a.chunk.css.map": "/Website-Gaming-React/home/static/css/main.2f7ce93a.chunk.css.map",
+    "static/js/2.67bff073.chunk.js.LICENSE.txt": "/Website-Gaming-React/home/static/js/2.67bff073.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.73e6b823.js",
+    "static/js/runtime-main.5afa2505.js",
     "static/js/2.67bff073.chunk.js",
     "static/css/main.2f7ce93a.chunk.css",
-    "static/js/main.363166c6.chunk.js"
+    "static/js/main.6c71aae3.chunk.js"
   ]
 }
