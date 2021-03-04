@@ -17,10 +17,10 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Route path='/home' exact component={Home} />
         <main style={{ overflow: 'hidden'}}>
           <AnimatePresence exitBeforeEnter>
             <Switch>
-              <Route path='/home' exact component={Home} />
               <Route path='/story' component={Story} />
               <Route path='/gallery' component={Gallery} />
               <Route path='/sign-up' component={SignUp} />
