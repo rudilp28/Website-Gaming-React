@@ -2,7 +2,7 @@ import React from 'react';
 
 const First = () => {
     return (
-        <div>
+        <div className="initial">
             aqui
         </div>
     );

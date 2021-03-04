@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import First from './components/First';
 import Home from './components/pages/Home';
@@ -15,24 +15,20 @@ function App() {
 
   return (
 
-    <>
-      <Router>
-        <Navbar />
-        <First />
-        <AnimatePresence exitBeforeEnter>
+    <HashRouter basename='/'>
+        <main style={{ overflow: 'hidden'}}>
+          <Navbar />
+          <AnimatePresence exitBeforeEnter>
             <Switch>
-              <Route path='/home' exact component={Home} />
+              <Route path='/' exact component={Home} />
               <Route path='/story' component={Story} />
               <Route path='/gallery' component={Gallery} />
               <Route path='/sign-up' component={SignUp} />
               <Route path='/service' component={Services} />
             </Switch>
           </AnimatePresence>
-        <main style={{ overflow: 'hidden'}}>
-         
         </main>
-      </Router>
-    </>
+    </HashRouter>
   );
 }
 
