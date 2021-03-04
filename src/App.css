@@ -159,6 +159,11 @@ div#root {
   .glassCard {
     width: 95%;
   }
+  .form {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
 }
 
 

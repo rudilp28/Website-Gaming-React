@@ -56,6 +56,8 @@ function InfoStory() {
             <br></br>
             Acontece no mesmo universo de Beyond Good and Evil , e apresenta personagens do original, contando 
             suas histórias antes dos acontecimentos do primeiro jogo.
+            <br></br>
+            <br></br>
             </motion.h5>
             </div>
           </section>
