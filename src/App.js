@@ -19,8 +19,7 @@ function App() {
       <Router>
         <Navbar />
         <First />
-        <main style={{ overflow: 'hidden'}}>
-          <AnimatePresence exitBeforeEnter>
+        <AnimatePresence exitBeforeEnter>
             <Switch>
               <Route path='/home' exact component={Home} />
               <Route path='/story' component={Story} />
@@ -29,6 +28,8 @@ function App() {
               <Route path='/service' component={Services} />
             </Switch>
           </AnimatePresence>
+        <main style={{ overflow: 'hidden'}}>
+         
         </main>
       </Router>
     </>
