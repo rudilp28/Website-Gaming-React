@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Website-Gaming-React/static/css/main.032f998b.chunk.css",
+    "main.css": "/Website-Gaming-React/static/css/main.615e3ca5.chunk.css",
     "main.js": "/Website-Gaming-React/static/js/main.8c087f81.chunk.js",
     "main.js.map": "/Website-Gaming-React/static/js/main.8c087f81.chunk.js.map",
     "runtime-main.js": "/Website-Gaming-React/static/js/runtime-main.159f8f00.js",
@@ -8,15 +8,15 @@
     "static/js/2.07a51285.chunk.js": "/Website-Gaming-React/static/js/2.07a51285.chunk.js",
     "static/js/2.07a51285.chunk.js.map": "/Website-Gaming-React/static/js/2.07a51285.chunk.js.map",
     "index.html": "/Website-Gaming-React/index.html",
-    "precache-manifest.ab5c393ffcd0d9f12ce6cc5d92c271d9.js": "/Website-Gaming-React/precache-manifest.ab5c393ffcd0d9f12ce6cc5d92c271d9.js",
+    "precache-manifest.1681cd3c30bc35871cef1bc3bca398b2.js": "/Website-Gaming-React/precache-manifest.1681cd3c30bc35871cef1bc3bca398b2.js",
     "service-worker.js": "/Website-Gaming-React/service-worker.js",
-    "static/css/main.032f998b.chunk.css.map": "/Website-Gaming-React/static/css/main.032f998b.chunk.css.map",
+    "static/css/main.615e3ca5.chunk.css.map": "/Website-Gaming-React/static/css/main.615e3ca5.chunk.css.map",
     "static/js/2.07a51285.chunk.js.LICENSE.txt": "/Website-Gaming-React/static/js/2.07a51285.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.159f8f00.js",
     "static/js/2.07a51285.chunk.js",
-    "static/css/main.032f998b.chunk.css",
+    "static/css/main.615e3ca5.chunk.css",
     "static/js/main.8c087f81.chunk.js"
   ]
 }
