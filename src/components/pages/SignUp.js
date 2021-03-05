@@ -24,10 +24,20 @@ export default function SignUp() {
       <h1>SIGN UP</h1>
       <form>
         <div className="form">
-          <input type="text" class="formulario__input"></input>
-          <label for="" class="formulario__label">Nome</label>
-          <input type="text" class="formulario__input"></input>
-          <label for="" class="formulario__label">Senha</label>
+          <form>
+            <input
+              className='sigUp-input'
+              name='email'
+              type='email'
+              placeholder='Your Email'
+            />
+            <input
+              className='sigUp-input'
+              name='password'
+              type='password'
+              placeholder='Password'
+            />
+          </form>
           <button class="btn btn--outline1 btn--large1">GET STARTED</button>
         </div>
       </form>

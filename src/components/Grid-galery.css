@@ -81,6 +81,23 @@ h2.style_Title {
     transition-duration: .2s;
 }
 
+.style_carousel::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+  }
+.style_carousel::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+  }
+.style_carousel::-webkit-scrollbar-thumb {
+    background: #ff9800;
+  }
+  
+  
+  div#root {
+    background-color: #666;
+  }
+  
+
 .style_carousel_bloco {
     width: 50%;
     height: 100%;

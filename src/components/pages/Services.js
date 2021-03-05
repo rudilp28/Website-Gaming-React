@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 
 
-import {motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function Services() {
   return <div className="video">

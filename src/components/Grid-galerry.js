@@ -24,7 +24,7 @@ function GridGalerry() {
                 
                 {images.map((img, index) => (
                  <div className="bl"> 
-                <img style={{border: selectedImg === img ? "4px solid purple" : ""}} key={index} src={img} alt="wall" 
+                <img style={{border: selectedImg === img ? "4px solid #ff9800" : ""}} key={index} src={img} alt="wall" 
                 onClick={() => setSelectedImg(img)} />
                 </div>
               ))}

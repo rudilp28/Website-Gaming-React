@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import './App.css';
 import { HashRouter, BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import First from './components/First';
 import Home from './components/pages/Home';
 import Story from './components/pages/Story';
 import Services from './components/pages/Services';

@@ -97,6 +97,14 @@
 .social-icon-link {
   color: #fff;
   font-size: 24px;
+  transition: 0.4s ease-in-out;
+}
+
+.social-icon-link:hover {
+  color: #ff9800;
+  font-size: 24px;
+ transform: translateY(-8px);
+ transition: 0.4s ease-in-out;
 }
 
 .social-media {
